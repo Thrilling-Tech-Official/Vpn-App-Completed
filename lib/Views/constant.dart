@@ -42,29 +42,3 @@ const blueGradient=LinearGradient(
 
     ]
 );
-const textfieldDecoration=InputDecoration(
-  contentPadding: EdgeInsets.fromLTRB(15, 0, 0, 0),
-
-  border:OutlineInputBorder(
-      borderRadius: BorderRadius.all(Radius.circular(5)),borderSide: BorderSide(color:MidGray)
-  ) ,
-
-  focusedBorder:OutlineInputBorder(
-      borderRadius: BorderRadius.all(Radius.circular(5)),borderSide: BorderSide(color:MidGray)
-  ) ,
-  focusedErrorBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.all(Radius.circular(5)),borderSide: BorderSide(color:Colors.red)
-  ) ,
-  errorBorder:OutlineInputBorder(
-      borderRadius: BorderRadius.all(Radius.circular(5)),borderSide: BorderSide(color:Colors.red)
-  )  ,
-
-  enabledBorder:OutlineInputBorder(
-      borderRadius: BorderRadius.all(Radius.circular(5)),borderSide: BorderSide(color:MidGray)
-  ) ,hintStyle: TextStyle(color: Colors.black54,fontSize: 15,),
-  suffixIcon: Icon(Icons.email_outlined,color:Colors.transparent, size: 18,),
-
-  hintText: '',
-
-
-);

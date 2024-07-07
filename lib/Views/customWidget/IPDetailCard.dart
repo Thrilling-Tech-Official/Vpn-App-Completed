@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:vpn_app/Views/constant.dart';
-import 'package:vpn_app/Views/customWidget/ThemeColor.dart';
 class IPDetailCard extends StatelessWidget {
   final String title;
   final String subtitle;

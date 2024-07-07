@@ -13,7 +13,6 @@ class Splash_Screen extends StatefulWidget {
 }
 
 class _Splash_ScreenState extends State<Splash_Screen> {
-  bool isDataloaded = false;
 
   @override
   void initState() {
@@ -57,7 +56,7 @@ class _Splash_ScreenState extends State<Splash_Screen> {
                   ],),
               ),
             ),
-            isDataloaded ?  Expanded(flex:3,child: Container()) :Expanded(flex:3,child: Center(
+           Expanded(flex:3,child: Center(
               child: Container(height: 50,width:50,child: CircularProgressIndicator(color: IconBluecolor,),),
             )),
 

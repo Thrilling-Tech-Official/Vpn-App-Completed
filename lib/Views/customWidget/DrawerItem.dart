@@ -6,12 +6,10 @@ class DrawerItem extends StatelessWidget {
   final IconData leading;
   final String  title;
   final VoidCallback onTap;
-  final myindex;
   DrawerItem({
     required this.leading,
     required this.title,
     required this.onTap,
-    this.myindex=0
   });
   @override
   Widget build(BuildContext context) {

@@ -59,7 +59,7 @@ class _SideNavigationBarState extends State<SideNavigationBar> {
           ///IP Details Screen
           DrawerItem(
             leading: CupertinoIcons.info_circle,
-            title: 'IP Details',myindex: 1,
+            title: 'IP Details',
             onTap: () {
 
               ///CLose Navigator drawer before
@@ -72,7 +72,6 @@ class _SideNavigationBarState extends State<SideNavigationBar> {
           DrawerItem(
             leading:  CupertinoIcons.globe,
             title: 'Server List',
-            myindex: 2,
             onTap: () {
 
 
@@ -102,7 +101,6 @@ class _SideNavigationBarState extends State<SideNavigationBar> {
           DrawerItem(
             leading: Icons.share,
             title: 'Share App',
-            myindex: 3  ,
             onTap: () async {
               ///Share APP with other users
 
@@ -120,7 +118,6 @@ class _SideNavigationBarState extends State<SideNavigationBar> {
           DrawerItem(
             leading: CupertinoIcons.star,
             title: 'Rate Us',
-            myindex: 4,
             onTap: () {
 
               ///  dialog Box For Rating
@@ -150,9 +147,9 @@ class _SideNavigationBarState extends State<SideNavigationBar> {
         textAlign: TextAlign.center,
         style: grayTextStyle,
       ),
-      onCancelled: (){
-
-      },
+      // onCancelled: (){
+      //
+      // },
 
       onSubmitted: (response){
       ///  For Rating
